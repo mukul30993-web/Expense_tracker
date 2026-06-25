@@ -1,8 +1,7 @@
-def main():
+def menu():
 
     print("\n======== Expense Tracker ========")
-    print("1.add expense")
-    print("2.view expense")
-    print("3.total expense")
-    print("4.exit")
-    
+    print("1. Add Expense")
+    print("2. View Expenses")
+    print("3. Total Expense")
+    print("4. Exit")

@@ -5,8 +5,8 @@ from utils import menu
 manager = ExpenseManager()
 
 while True:
-
     menu()
+
     choice = input("Enter Choice: ")
 
     if choice == "1":
@@ -19,8 +19,8 @@ while True:
         total_expense()
 
     elif choice == "4":
-        print("Thank You")
+        print("Thank You!")
         break
 
     else:
-        print("Invalid Choice")
+        print("Invalid Choice!")
